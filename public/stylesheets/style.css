@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:900,100);
 
 body {
-  padding: 50px;
-  font: 14px Lato,"Lucida Grande", Helvetica, Arial, sans-serif;
+    padding-left: 50px;
+    font: 20px Lato, "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -10,5 +10,5 @@ a {
 }
 
 #good-news {
-    font-size: 10em;
+    font-size: 12em;
 }
