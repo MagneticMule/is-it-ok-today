@@ -54,6 +54,8 @@ feedparser.on('readable', function () {
     }
     console.log('Final Score: ' + runningScore);
 });
+
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
     if (runningScore > 0) {
@@ -61,7 +63,7 @@ router.get('/', function (req, res, next) {
     } else if (runningScore === 0) {
         res.render('index', {title: 'It is Neither Good nor Bad Today', message: 'OK'});
     } else if (runningScore < 0) {
-        res.render('index', {title: 'It is not good today', message: 'NO'});
+        res.render('index', {title: 'It is Not Good today', message: 'NO'});
     }
 });
 

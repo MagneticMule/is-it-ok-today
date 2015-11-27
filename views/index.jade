@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1#good-news= message
-  p#blurb= blurb
+  .container
+    h1#good-news=message
+    p#blurb=blurb
+    a.explain(href="#explanation") How did we work this out?

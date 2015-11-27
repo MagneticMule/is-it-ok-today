@@ -2,13 +2,25 @@
 
 body {
     padding-left: 50px;
-    font: 20px Lato, "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 16px Lato, "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
 
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
 #good-news {
     font-size: 12em;
+}
+
+a.explain {
+    font: 1em, "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: blue;
 }
