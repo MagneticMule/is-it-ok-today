@@ -46,7 +46,7 @@ feedparser.on('readable', function () {
         , item;
 
 
-    while (item = stream.read()) {
+    while (item === stream.read()) {
         console.log(item.title);
         console.log('----------');
         console.log(sentiment(item.title).score);
