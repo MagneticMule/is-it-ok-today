@@ -11,7 +11,7 @@ var runningScore = 0;
 var req = request('https://news.google.co.uk/news?cf=all&hl=en&ned=uk&output=rss');
 
 // Some feeds do not respond without user-agent and accept headers.
-req.setHeader('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36');
+req.setHeader('user-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36');
 req.setHeader('accept', 'text/html,application/xhtml+xml');
 
 var feedparser = new Feedparser();
